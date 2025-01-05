@@ -17,7 +17,25 @@ Les données utilisées proviennent de [montreal.weatherstats.ca](https://montre
 
 ## Prérequis
 
-Assurez-vous d'avoir Python 3.x installé sur votre machine. Installez les dépendances requises avec :
+Assurez-vous d'avoir Python 3.7 installé sur votre machine. Installez les dépendances requises avec :
 
 ```bash
 pip install -r requirements.txt
+
+## Utilisation
+
+1. **Cloner le dépôt** :
+
+   ```bash
+   git clone https://github.com/mahsamaali/weather_forecast.git
+   cd weather_forecast
+
+2.**Exécuter les scripts**:
+Utilisez les scripts du répertoire src/ pour prétraiter les données, entraîner les modèles et générer des prédictions.
+
+
+
+3.**Visualiser les résultats**:
+Les résultats, y compris les visualisations et les prédictions, seront sauvegardés dans le répertoire results/. 
+
+
