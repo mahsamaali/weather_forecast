@@ -1,7 +1,23 @@
-**Prédiction des Températures à Montréal : Analyse et Modélisation Basées sur les Données Climatiques**
+# Prédiction des Températures à Montréal : Analyse et Modélisation Basées sur les Données Climatiques
 
-**1. Introduction et problématique**
-Le réchauffement climatique a provoqué une augmentation de 1,7°C des températures moyennes au Canada entre 1948 et 2016, avec un taux de réchauffement deux fois plus élevé que la moyenne mondiale. Les effets sont particulièrement marqués dans le nord du pays et durant l'hiver. Cette situation rend la prédiction des températures de plus en plus complexe. Ce projet vise à prédire les températures annuelles à Montréal en utilisant des données historiques, et à identifier les facteurs clés pour améliorer la classification des températures.
+## Introduction et Problématique
 
-**2. Source des données**
-Les données pour ce projet proviennent du site montreal.weatherstats.ca, qui compile des informations issues de bases de données gouvernementales canadiennes sur l'environnement et le changement climatique. Ces données sont librement accessibles pour un usage non commercial, avec l'obligation de citer la source : « weatherstats.ca based on Environment and Climate Change Canada data ».
+Le réchauffement climatique a entraîné une augmentation de 1,7 °C des températures moyennes au Canada entre 1948 et 2016, avec un taux de réchauffement deux fois plus élevé que la moyenne mondiale. Les effets sont particulièrement marqués dans le nord du pays et durant l'hiver, rendant la prédiction des températures de plus en plus complexe. Ce projet vise à prédire les températures annuelles à Montréal en utilisant des données historiques et à identifier les facteurs clés pour améliorer la classification des températures.
+
+## Source des Données
+
+Les données utilisées proviennent de [montreal.weatherstats.ca](https://montreal.weatherstats.ca/), qui compile des informations issues de bases de données gouvernementales canadiennes sur l'environnement et le changement climatique. Ces données sont librement accessibles pour un usage non commercial, avec l'obligation de citer la source : « weatherstats.ca based on Environment and Climate Change Canada data ».
+
+## Structure du Projet
+
+- `data/` : Contient les jeux de données climatiques historiques de Montréal.
+- `src/` : Inclut les scripts Python pour le traitement des données, l'analyse et la modélisation.
+- `results/` : Regroupe les visualisations, les modèles entraînés et les prédictions générées.
+- `requirements.txt` : Liste des dépendances Python nécessaires à l'exécution du projet.
+
+## Prérequis
+
+Assurez-vous d'avoir Python 3.x installé sur votre machine. Installez les dépendances requises avec :
+
+```bash
+pip install -r requirements.txt
