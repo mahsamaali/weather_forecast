@@ -22,6 +22,8 @@ Assurez-vous d'avoir Python 3.7 installé sur votre machine. Installez les dépe
 ```bash
 pip install -r requirements.txt
 
+```
+
 ## Utilisation
 
 1. **Cloner le dépôt** :
